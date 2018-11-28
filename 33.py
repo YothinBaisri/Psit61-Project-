@@ -1,5 +1,5 @@
-""" GGG """
-def main(number):
-    """ my function """
-    print(number * 2)
-main(112)
+""" Game of the year 2000-2018 """
+def main():
+    """ function """
+    print("8")
+main()
