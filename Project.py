@@ -13,9 +13,7 @@ game_name = []
 game_top = {}
 
 
-""" """
 
-  
 def keep(varible, style, plat, name, best):
     """ keep data """
     for year in range(2000, 2019):
@@ -58,15 +56,14 @@ def top_rank_flag(varible, count=0, lis_x=[], lis_y=[]):
         lis_x.append(key)
         lis_y.append(count)
         count = 0
-   
     plt.plot(lis_x, lis_y, 'ro-')
     plt.xlabel("Year")
     plt.ylabel("Average")
     plt.title("Top")
     plt.xticks(lis_x, rotation=45)
     plt.show()
-      
 top_rank_flag(game_rank)
+
 
 
 def top_style(style, lis_x=[], lis_y=[], count=0, lis_c=[]):
@@ -81,8 +78,8 @@ def top_style(style, lis_x=[], lis_y=[], count=0, lis_c=[]):
     plt.ylabel("Rate")
     plt.title("Top game style")
     plt.show()
-
 top_style(game_style)
+
 
 
 def plat_form(plat):
@@ -108,9 +105,9 @@ def plat_form(plat):
     plt.title("Top Platform")
     plt.legend()
     plt.show()
-
-    
 plat_form(game_plat)
+
+
 
 def find_best(name, best, count=0, lis=[], check=""):
     """ The best game forever """
@@ -129,5 +126,3 @@ def find_best(name, best, count=0, lis=[], check=""):
     print("Best game ever: %s"%check)
     print("Top game rate: %s %s"%(lis_name, rate))
 find_best(game_name, game_top)
-            
-
