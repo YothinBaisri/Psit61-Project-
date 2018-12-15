@@ -9,7 +9,8 @@
 ***
 
 ### ข้อมูลการวิจัย
-* อ้างอิงจากข้อมูลการจัดอันดับเกม 2000-2018:เว็บ Game Ranking.com: https://www.gamerankings.com/browse.html
+* อ้างอิงจากข้อมูลการจัดอันดับเกม 2000-2018 
+* อ้างอิงจากเว็บ Game Ranking.com: https://www.gamerankings.com/browse.html
 ***
 
 ### ผลจาการดำเนินงาน
