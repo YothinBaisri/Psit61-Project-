@@ -76,7 +76,7 @@ def top_style(style, lis_x=[], lis_y=[], count=0, lis_c=[]):
         lis_x.append(i)
         lis_c.append(count)
     plt.bar(lis_c, lis_y, tick_label=lis_x, width=0.8)
-    plt.xticks(lis_c, lis_x, fontsize=5, rotation=30)
+    plt.xticks(lis_c, lis_x, fontsize=6.5, rotation=65)
     plt.xlabel("List game style")
     plt.ylabel("Rate")
     plt.title("Top game style")
