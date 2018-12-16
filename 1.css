@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'tst_back_power_extregular';
+    src: url('tst_back_power_ext_regular-webfont.eot');
+    src: url('tst_back_power_ext_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('tst_back_power_ext_regular-webfont.woff2') format('woff2'),
+         url('tst_back_power_ext_regular-webfont.woff') format('woff'),
+         url('tst_back_power_ext_regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.F1{
+	font-family: 'tst_back_power_extregular';
+}
+
+.mg-r-10 {
+	margin-right: 400px;
+}
