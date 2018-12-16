@@ -17,7 +17,7 @@ game_top = {}
 def keep(varible, style, plat, name, best):
     """ keep data """
     for year in range(2000, 2019):
-        file = csv.reader(open(r"C:\Users\User\Desktop\list GOY\%s.csv" %year))
+        file = csv.reader(open(r"C:\Users\GGG\Desktop\PYTHON\Project\list GOY\%s.csv" %year))
         varible[year] = list(file)
     for key, item in varible.items():
         for top in range(10):
@@ -59,24 +59,29 @@ def top_rank_flag(varible, count=0, lis_x=[], lis_y=[]):
     plt.plot(lis_x, lis_y, 'ro-')
     plt.xlabel("Year")
     plt.ylabel("Average")
-    plt.title("Top Best Game")
+    plt.title("Top rate of game")
     plt.xticks(lis_x, rotation=45)
     plt.show()
 top_rank_flag(game_rank)
 
 
 
-def top_style(style, lis_x=[], lis_y=[], count=0, lis_c=[]):
+def top_style(style, lis_x=[], lis_y=[], count=0, lis_c=[], check=[]):
+    top1 = ""
+    top2 = ""
+    top3 = ""
     for i in set(style):
         count += 1
         lis_y.append(style.count(i))
         lis_x.append(i)
         lis_c.append(count)
+        check.append([i, style.count(i)])
     plt.bar(lis_c, lis_y, tick_label=lis_x, width=0.8)
     plt.xticks(lis_c, lis_x, fontsize=6.5, rotation=65)
     plt.xlabel("List game style")
     plt.ylabel("Rate")
-    plt.title("Top Game Style")
+    plt.title("Top game style")
+    plt.grid(axis='y', alpha=0.75)
     plt.show()
 top_style(game_style)
 
