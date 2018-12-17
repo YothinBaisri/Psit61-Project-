@@ -23,4 +23,4 @@
 
 ### ผลลัพธ์จากงานวิจัย
 * พวกเราได้จัดทำเว็บไซต์แสดงบนเว็บไซต์: https://www.it.kmitl.ac.th/~it61070223/Game%20of%20The%20Year.html?fbclid=IwAR2vkFQZP4Zp3sAvVQCN8GUA7gKR-qPeIBSHh5c4zICPakxmzKq_I7J2VrM
-* ผลงานการนำเสนอ: 
+* ผลงานการนำเสนอ: https://www.youtube.com/watch?v=B3ajBMWgHMk&feature=youtu.be
